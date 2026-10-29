@@ -4,7 +4,8 @@
 Level 1 사이트와 **같은 DB**를 함께 쓰고, Level 3에 필요한 테이블(계정·예약·AI 사용 기록·휴무일·공휴일 기록·공지 첨부파일·이벤트 이미지)만 새로 더해요.
 이 서버 하나를 **관리자 화면**(총관리자·일반관리자)과 **고객 화면**이 함께 써요.
 
-- 화면(프론트) 저장소: `mongsil-level3-frontend`
+- **배포된 서버**: https://mongsil-level3-backend.onrender.com (상태 확인: `/health`)
+- 화면(프론트) 주소: https://mongsil-level3-frontend.vercel.app (저장소 `mongsil-level3-frontend`)
 - 이 저장소(백엔드): `mongsil-level3-backend`
 - 문서: [기획서.md](./기획서.md) · [디자인가이드.md](./디자인가이드.md) · [메뉴구조도_IA.md](./메뉴구조도_IA.md)
 
