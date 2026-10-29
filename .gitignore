@@ -1,0 +1,14 @@
+# 빌드 결과, 설치 파일
+/dist
+/node_modules
+
+# 비밀 값 (DB 주소 등) - 절대 GitHub에 올리지 않기
+.env
+.env.*
+!.env.example
+
+# 기타
+*.log
+.DS_Store
+coverage
+*.tsbuildinfo
