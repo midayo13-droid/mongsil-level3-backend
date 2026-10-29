@@ -55,11 +55,11 @@ flowchart TD
   G2 --> E[이벤트 /events]
   N --> N1[공지 상세 /notices/:id]
   E --> E1[이벤트 상세 /events/:id]
-  G3 --> A6[고객 관리 /admin/accounts]
+  G3 --> A6[회원 관리 /admin/accounts]
   G3 --> A3[관리사 관리 /admin/groomers]
   G3 --> A7[휴무일 관리 /admin/closed-days]
   G3 --> A8[가상 데이터 /admin/reseed]
-  A6 --> A61[고객 상세 /admin/accounts/:id]
+  A6 --> A61[회원 상세 /admin/accounts/:id]
   A3 --> A31[관리사 상세 /admin/groomers/:id]
 ```
 
@@ -100,7 +100,7 @@ flowchart TD
 | 강아지 · 신규 등록 · 수정 | ✔ (삭제 포함) | ✔ (삭제 불가) | — |
 | 미용 기록 | 조회·등록·수정·삭제 | 조회·등록 | — |
 | 공지사항 · 이벤트 | 조회·등록·수정·삭제 (첨부·이미지·링크 포함) | 조회 | 조회 |
-| 고객 관리 · 고객 상세 | ✔ | — | — |
+| 회원 관리 · 회원 상세 | ✔ | — | — |
 | 관리사 관리 · 관리사 상세 | ✔ | — | — |
 | 휴무일 관리 | ✔ | — | — |
 | 가상 데이터 | ✔ | — | — |
@@ -165,8 +165,8 @@ flowchart TD
 | B2 | 공지 상세 | `/notices/:id` | 사장님 · 관리사 |
 | E1 | 이벤트 목록 | `/events` | 사장님 · 관리사 |
 | E2 | 이벤트 상세 | `/events/:id` | 사장님 · 관리사 |
-| A6 | 고객 관리 | `/admin/accounts` | 사장님 |
-| A6-1 | 고객 상세 | `/admin/accounts/:id` | 사장님 |
+| A6 | 회원 관리 | `/admin/accounts` | 사장님 |
+| A6-1 | 회원 상세 | `/admin/accounts/:id` | 사장님 |
 | A3 | 관리사 관리 | `/admin/groomers` | 사장님 |
 | A3-1 | 관리사 상세 | `/admin/groomers/:id` | 사장님 |
 | A7 | 휴무일 관리 | `/admin/closed-days` | 사장님 |
@@ -175,5 +175,5 @@ flowchart TD
 ## 6. 유지 규칙
 
 - 메뉴·화면을 추가하거나 이름을 바꾸면 이 문서와 PPT, `기획서.md`의 화면 표를 같이 고칩니다.
-- 메뉴 이름은 사이드바·화면 제목·문서에서 같은 표현을 씁니다. (예: 고객 관리 / 관리사 관리 / 휴무일 관리)
+- 메뉴 이름은 사이드바·화면 제목·문서에서 같은 표현을 씁니다. (예: 회원 관리 / 관리사 관리 / 휴무일 관리)
 - 눌러서 볼 내용이 있는 목록에는 상세 화면을 둡니다.
